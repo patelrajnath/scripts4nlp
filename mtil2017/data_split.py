@@ -63,7 +63,7 @@ for idx in tunning_indices:
 
 train_src = []
 train_tgt = []
-for idx in test_indices:
+for idx in train_indices:
 	train_src.append(df_src[idx].strip().lower())
 	train_tgt.append(df_tgt[idx].strip())
 
